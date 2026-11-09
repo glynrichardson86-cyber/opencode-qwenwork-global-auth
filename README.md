@@ -51,10 +51,15 @@ OpenCode users can take the same package through npm's git syntax:
 npm i github:glynrichardson86/opencode-qwenwork-intl-auth
 ```
 
-(An `opencode-qwenwork-intl-auth` npm name is reserved in this README's
-intent; if it is ever published, `magpie plugin add
-opencode-qwenwork-intl-auth` works too, and `magpie plugin update` will then
-track versions.)
+### npm (published)
+
+The package is live on the npm registry as `opencode-qwenwork-intl-auth`:
+
+```sh
+magpie plugin add opencode-qwenwork-intl-auth
+```
+
+`magpie plugin update` tracks `@latest` from here.
 
 ### OpenCode, or magpie from npm
 

@@ -1,6 +1,6 @@
 {
   "name": "opencode-qwenwork-intl-auth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "QwenWork Global (the overseas qwenwork.ai cloud) subscriptions in OpenCode and magpie: gateway.qwenwork.ai on the same protocol @magpie-community/opencode-qoder-auth serves qwenwork.cn with",
   "type": "module",
   "main": "./opencode.mjs",
