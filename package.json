@@ -1,5 +1,5 @@
 {
-  "name": "opencode-qwenwork-intl-auth",
+  "name": "opencode-qwenwork-global-auth",
   "version": "0.2.0",
   "description": "QwenWork Global (the overseas qwenwork.ai cloud) subscriptions in OpenCode and magpie: gateway.qwenwork.ai on the same protocol @magpie-community/opencode-qoder-auth serves qwenwork.cn with",
   "type": "module",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glynrichardson86-cyber/opencode-qwenwork-intl-auth.git"
+    "url": "git+https://github.com/glynrichardson86-cyber/opencode-qwenwork-global-auth.git"
   },
   "comment": "Forked from @magpie-community/opencode-qoder-auth 0.2.63 (index.mjs / opencode.mjs / opencode2.mjs); see README.md for the exact patch and how to re-sync.",
   "magpie": {

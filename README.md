@@ -1,4 +1,4 @@
-# opencode-qwenwork-intl-auth
+# opencode-qwenwork-global-auth
 
 **QwenWork Global** — the overseas cloud of Alibaba's QwenWork (千问办公国际版,
 [qwenwork.ai](https://qwenwork.ai)) — in OpenCode and
@@ -28,7 +28,7 @@ So this is a site preset, not a new protocol: the patch is 4 hunks in
 ### magpie, from a local checkout (no publish needed)
 
 ```sh
-magpie plugin add /path/to/opencode-qwenwork-intl-auth
+magpie plugin add /path/to/opencode-qwenwork-global-auth
 magpie plugin login qwenwork-intl   # or Settings → Providers → QwenWork Global
 ```
 
@@ -41,22 +41,22 @@ keep it where it is, and `magpie plugin update` won't touch a path spec.
 From GitHub (this repository), one command, no clone needed:
 
 ```sh
-magpie plugin add github:glynrichardson86/opencode-qwenwork-intl-auth
+magpie plugin add github:glynrichardson86/opencode-qwenwork-global-auth
 magpie plugin login qwenwork-intl
 ```
 
 OpenCode users can take the same package through npm's git syntax:
 
 ```sh
-npm i github:glynrichardson86/opencode-qwenwork-intl-auth
+npm i github:glynrichardson86/opencode-qwenwork-global-auth
 ```
 
 ### npm (published)
 
-The package is live on the npm registry as `opencode-qwenwork-intl-auth`:
+The package is live on the npm registry as `opencode-qwenwork-global-auth`:
 
 ```sh
-magpie plugin add opencode-qwenwork-intl-auth
+magpie plugin add opencode-qwenwork-global-auth
 ```
 
 `magpie plugin update` tracks `@latest` from here.
@@ -64,7 +64,7 @@ magpie plugin add opencode-qwenwork-intl-auth
 ### OpenCode, or magpie from npm
 
 ```sh
-npm i opencode-qwenwork-intl-auth @magpie-community/opencode-qoder-auth
+npm i opencode-qwenwork-global-auth @magpie-community/opencode-qoder-auth
 ```
 
 The package exports **only** `QwenWorkIntlAuthPlugin` from its OpenCode 1.x
